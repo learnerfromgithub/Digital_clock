@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.title}>Digital Clock</h2>
+      <h2 style={styles.title}>Digital Time  Clock/h2>
       <h1 style={styles.clock}>{curTime}</h1>
     </div>
   );
