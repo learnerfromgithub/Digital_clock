@@ -1,0 +1,83 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h2::before {
+  content: "📅";
+  margin-right: 8px;
+}
+
+.inputTask {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.inputTask input {
+  border: none;
+  background: none;
+  outline: none;
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.inputTask button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.taskData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.taskData p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.taskData i {
+  color: #555;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.taskData i:hover {
+  color: red;
+}
